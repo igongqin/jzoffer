@@ -1,4 +1,4 @@
-//求最大公共子串
+//求最大公共子串，【动态规划】
 int getLongestSubString(char* query,char* text){
 	int imax = INT_MIN;
 	int m = strlen(query);
